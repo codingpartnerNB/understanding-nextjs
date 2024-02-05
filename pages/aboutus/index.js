@@ -1,5 +1,6 @@
+
 const AboutUsPage = ()=>{
-    return <h1>The AboutUs Page</h1>
+    return <h1>About Us Page</h1>
 }
 
 export default AboutUsPage;
