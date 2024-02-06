@@ -15,12 +15,12 @@ const Developer = ()=>{
     // console.log(developer);
     return(
         <Fragment>
-            <h1>Developer : {id}</h1>
+            <h1 style={{color: "red"}}>Developer : {id}</h1>
             {developer ? (<>
-                    <h3>{developer.name}</h3>
-                    <p>{developer.role}</p>
+                    <h3 style={{color: "brown"}}>Name : {developer.name}</h3>
+                    <p style={{color: "gray"}}>Role : {developer.role}</p>
                 </>
-            ) : <p>
+            ) : <p style={{color: "brown"}}>
                     Developer doesn't exist
                 </p>
             }

@@ -5,11 +5,11 @@ const AboutUsPage = ()=>{
     //Route -> our-domain.com/aboutus
     return (
         <Fragment>
-            <h1>About Us Page</h1>
-            <ul>
-                <li><Link href={`/aboutus/1`}>Yash</Link></li>
-                <li><Link href={`/aboutus/2`}>Vaibhav</Link></li>
-                <li><Link href={`/aboutus/3`}>Suresh</Link></li>
+            <h1 style={{color: "red"}}>About Us Page</h1>
+            <ul style={{listStyle: "none"}}>
+                <li style={{marginTop: "18px"}}><Link href='/aboutus/1' style={{textDecoration: "none", color: "brown"}}>Yash</Link></li>
+                <li style={{marginTop: "18px"}}><Link href='/aboutus/2' style={{textDecoration: "none", color: "brown"}}>Vaibhav</Link></li>
+                <li style={{marginTop: "18px"}}><Link href='/aboutus/3' style={{textDecoration: "none", color: "brown"}}>Suresh</Link></li>
             </ul>
         </Fragment>
     );
